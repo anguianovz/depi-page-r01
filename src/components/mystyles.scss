@@ -1,0 +1,117 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+
+// Set your brand colors
+$pink: #FA7C91;
+$blueD: hsl(215, 100%, 30%);
+$blueD-invert: #fff;
+$blueLight: #4588E5;
+$blueGray: #3b3e4e;
+$redb: #B11830;
+
+// Update Bulma's global variables
+$primary: $blueD;
+$primary-text: $pink;
+
+// Update some of Bulma's component variables
+$navbar-background-color: $redb;
+$navbar-height: 3.25;
+$navbar-divider-height: 3;
+$navbar-item-img-max-height: 6rem;
+$navbar-item-color: hsl(101, 30%, 88%);
+$navbar-item-hover-color: hsl(101, 30%, 88%);
+$navbar-item-hover-background-color: #831223;
+$navbar-dropdown-background-color: $redb;//change
+$navbar-dropdown-item-hover-background-color: #831223;
+$navbar-dropdown-arrow: #FFF;
+$button-background-color: $blueLight;
+$button-color: hsl(101, 30%, 88%);
+$footer-color: true;
+$footer-background-color: $blueGray;
+$hero-body-padding-small: 1rem 1rem 0rem 1rem;
+$section-padding-desktop: 3rem 1.5rem;
+
+.texto {
+    color: aqua;
+}
+
+.container-carousel {
+    width: auto;
+    height: 800px; }
+  
+  hr {
+    margin-top: 100px;
+    border: none;
+    visibility: hidden;
+    clear: both; }
+  
+  /*.navbar-burger {
+      height: 100px;
+  }*/
+  .bd-hero {
+    background-color: #2259a5; }
+  
+  .bd-hero-body {
+    text-align: center;
+    padding-bottom: 0px; }
+  
+  .hero-body .title {
+    color: beige;
+    font-family: 'Noto Sans', sans-serif; }
+  
+  .hero-body .subtitle {
+    color: beige;
+    font-family: 'Noto Sans', sans-serif; }
+  
+  .navbar-item {
+    font-family: 'Noto Sans', sans-serif; }
+  
+  .bd-noto {
+    font-family: 'Noto Sans', sans-serif; }
+  
+  .bd-image {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  
+  .bsto-image {
+    width: auto;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  
+  p {
+    color: #333;
+    font-family: 'Noto Sans', sans-serif; }
+  
+  .p-footer {
+    color: #ddead7; }
+  
+  .hero.has-background {
+    position: relative;
+    overflow: hidden; }
+  
+  .hero-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%; }
+  
+  .hero-background.is-transparent {
+    opacity: 0.1; }
+
+@import "../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+/*
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+@import "../../node_modules/bulma/sass/elements/container.sass";
+@import "../../node_modules/bulma/sass/elements/title.sass";
+@import "../../node_modules/bulma/sass/form/_all.sass";
+@import "../../node_modules/bulma/sass/layout/_all.sass";
+*/
